@@ -1,0 +1,15 @@
+{
+  "name": "kosen-mini-site",
+  "version": "1.0.0",
+  "description": "This is a KOSEN-KMITL Mini-site, for Lab work 4 for Basic Computer Engineering C2R2-AY2025S2 Week06-07 ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "wildflowerlol",
+  "license": "CC0-1.0",
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "wrangler": "^4.55.0"
+  }
+}
