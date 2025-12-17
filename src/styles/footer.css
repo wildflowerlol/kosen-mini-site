@@ -26,6 +26,7 @@ footer .social-links a {
   color: var(--primary-foreground);
   text-decoration: none;
   transition: all 0.3s ease;
+  padding: 0.5rem;
 }
 
 footer .social-links a:hover {
@@ -48,4 +49,14 @@ footer .copyright {
 
 footer .copyright p {
   margin: 0.5rem 0;
+}
+
+footer .copyright a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+footer .copyright a:hover {
+  color: var(--kosen-blue);
+  text-decoration: underline;
 }
