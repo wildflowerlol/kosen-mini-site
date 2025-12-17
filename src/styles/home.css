@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   padding: 4rem 16rem;
-  background-color: var(--muted);
+  background-color: var(--card);
 }
 
 #courses {
