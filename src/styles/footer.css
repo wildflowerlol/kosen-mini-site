@@ -35,8 +35,7 @@ footer .social-links a:hover {
 }
 
 footer .social-links a svg {
-  width: 1.5rem;
-  height: 1.5rem;
+  fill: var(--primary-foreground);
 }
 
 footer .copyright {
