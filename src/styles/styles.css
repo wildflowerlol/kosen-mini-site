@@ -6,3 +6,5 @@
 
 @import "header.css" layer(components);
 @import "home.css" layer(components);
+@import "contact.css" layer(components);
+@import "structure.css" layer(components);
