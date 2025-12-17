@@ -84,3 +84,88 @@
 .course-item a:hover {
   color: var(--muted-foreground);
 }
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  #about {
+    padding: 4rem 8rem;
+  }
+
+  .courses-list {
+    margin: 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 4rem;
+    margin-top: 10rem;
+  }
+
+  #hero h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  #about {
+    padding: 2rem 2rem;
+    font-size: 0.9375rem;
+  }
+
+  #courses {
+    padding: 2rem 1rem;
+  }
+
+  #courses h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #courses h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .courses-list {
+    flex-direction: column;
+    margin: 0 1rem;
+    gap: 2rem;
+  }
+
+  .course-item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 3rem;
+    margin-top: 8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.25rem;
+  }
+
+  #about {
+    padding: 1.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  #courses h2 {
+    font-size: 1.75rem;
+  }
+
+  #courses h3 {
+    font-size: 1.25rem;
+  }
+
+  .course-item {
+    padding: 1.5rem;
+  }
+
+  .course-item a {
+    font-size: 1.25rem;
+  }
+}
