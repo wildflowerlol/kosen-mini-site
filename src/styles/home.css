@@ -1,0 +1,86 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+}
+
+#hero h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin-top: 15rem;
+  filter: drop-shadow(0 0 4rem var(--foreground));
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 16rem;
+  background-color: var(--card);
+}
+
+#courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+#courses h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#courses h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.courses-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  margin: 0 16rem;
+}
+
+.course-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 36rem;
+  background-color: var(--card);
+  transition:
+    background-color 0.1s ease,
+    box-shadow 0.1s ease;
+}
+
+.course-item:hover {
+  background-color: var(--background);
+  box-shadow: 0 0 1rem var(--foreground);
+}
+
+.course-item a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.1s ease;
+}
+
+.course-item a:hover {
+  color: var(--muted-foreground);
+}

@@ -2,4 +2,7 @@
 
 @import "theme.css" layer(theme);
 @import "base.css" layer(base);
+@import "components.css" layer(components);
+
 @import "header.css" layer(components);
+@import "home.css" layer(components);
