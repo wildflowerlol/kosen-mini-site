@@ -27,6 +27,11 @@
   background-color: var(--card);
 }
 
+#about h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 #courses {
   display: flex;
   flex-direction: column;
@@ -54,9 +59,6 @@
 }
 
 .course-item {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
   border: 1px solid var(--border);
   border-radius: 1rem;
   padding: 2rem;
